@@ -82,3 +82,85 @@
 .onProductCard a:hover {
     color: brown;
 }
+
+/* --------------------------------------------------- */
+
+.product-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10%;
+  height: auto;
+}
+
+.product-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.product-img img {
+  width: 350px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.product-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(86, 36, 221);
+}
+
+.title span {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  color: brown;
+}
+
+.desc {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.desc span {
+  color: cadetblue;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.last {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.price,
+.category {
+  font-size: 30px;
+}
+
+.price span {
+  color: green;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.category span {
+  color: red;
+  font-weight: bold;
+  margin-right: 10px;
+}
